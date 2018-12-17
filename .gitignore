@@ -105,3 +105,6 @@ venv.bak/
 
 # PyCharm
 .idea/
+
+# wxGlade
+GUI/*.bak
