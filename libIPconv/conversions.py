@@ -159,7 +159,7 @@ def isValidIPv4(input_value, addr_type: int = ADDRTYPE.NONE, strict: bool = Fals
         if addr_type in [ADDRTYPE.NONE, ADDRTYPE.DEC]:
             check_value = input_value
         else:
-            raise ValueError('Type int input_value passed with incompatible addr_type of {addr_type}')
+            raise ValueError(f'Type int input_value passed with incompatible addr_type of {addr_type}')
     else:
         raise ValueError(f'Expected input type str or int. Got {type(input_value)}')
 
