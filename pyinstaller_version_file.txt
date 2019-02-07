@@ -13,7 +13,7 @@ VSVersionInfo(
     # Set not needed items to zero 0.
     # NOTE: change filevers ONLY. To change product version, edit ProductVersion in the StringTable!
 	# LEAVE the 4-part versioning, just use 0 where you don't have any version info. Ex: 4.4 will be 4, 4, 0, 0
-    filevers=(2, 0, 0, 0),
+    filevers=(2, 1, 0, 0),
     prodvers=(0, 0, 0, 0),
     # Contains a bitmask that specifies the valid bits 'flags'r
     mask=0x3f,
@@ -43,11 +43,11 @@ VSVersionInfo(
         # NOTE: This 'FileVersion' is over-written with the filevers contents! Change that instead!
         StringStruct(u'FileVersion', u'0.0.0.0'),
         StringStruct(u'InternalName', u''),
-        StringStruct(u'LegalCopyright', u'Copyright © Brandon M. Pace 2014, 2018'),
+        StringStruct(u'LegalCopyright', u'Copyright © Brandon M. Pace 2014, 2018, 2019'),
         StringStruct(u'OriginalFilename', u'Quick_IP_Converter.exe'),
         StringStruct(u'ProductName', u'Quick IP Converter'),
         # NOTE: This is where you should change the version:
-        StringStruct(u'ProductVersion', u'2.0.0.0'),
+        StringStruct(u'ProductVersion', u'2.1.0.0'),
         # Don't worry about changing the below at all
         StringStruct(u'Assembly Version', u'0.0.0.0')])
       ])

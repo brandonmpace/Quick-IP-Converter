@@ -1,6 +1,6 @@
 # Quick IP Converter
 
-Copyright (C) 2014, 2018 Brandon M. Pace <brandonmpace@gmail.com>
+Copyright (C) 2014, 2018, 2019 Brandon M. Pace <brandonmpace@gmail.com>
 
 License: LGPL-3.0-or-later
 
@@ -44,6 +44,8 @@ Decimal will accept any valid decimal value with no separators:
 
 
 **Revision history:**
+
+    2.1: Fixed issue with flickering widgets on Windows
 
     2.0: Completely new GUI that is smaller in size
         - Removed IP checkbox
